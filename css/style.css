@@ -1,0 +1,62 @@
+header {
+    background-color: #624A4A;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+#home{
+    background-image: url('img/Pizza.jpg');
+}
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 100px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a.active {
+    font-weight: bold;
+}
+
+#about {
+    padding: .5px;
+    border-style: solid ;
+    border-color: #258C14;
+   
+}
+
+.p1{
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+}
+
+.wrapper > div {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+p{
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
